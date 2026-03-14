@@ -374,6 +374,7 @@
     <div class="image-slide"><img src="24.jpg" alt="Gambar 24" loading="lazy"></div>
     <div class="image-slide"><img src="25.jpg" alt="Gambar 25" loading="lazy"></div>
     <div class="image-slide"><img src="26.jpg" alt="Gambar 26" loading="lazy"></div>
+    <div class="image-slide"><img src="27.jpg" alt="Gambar 27" loading="lazy"></div>
 </div>
 
 
@@ -383,7 +384,7 @@
             </button>
             
            <div class="image-counter">
-    <span id="currentIndex">1</span> / <span id="totalImages">26</span>
+    <span id="currentIndex">1</span> / <span id="totalImages">27</span>
 </div> 
 
             
@@ -419,13 +420,14 @@
     <div class="indicator" onclick="goToImage(23)"></div>
     <div class="indicator" onclick="goToImage(24)"></div>
     <div class="indicator" onclick="goToImage(25)"></div>
+    <div class="indicator" onclick="goToImage(26)"></div>
 </div>
 
     </div>
 
     <script>
         let currentImageIndex = 0;
-        const totalImages = 26;
+        const totalImages = 27;
         const slides = document.querySelectorAll('.image-slide');
         const indicators = document.querySelectorAll('.indicator');
         const prevBtn = document.getElementById('prevBtn');
